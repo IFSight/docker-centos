@@ -1,5 +1,5 @@
 FROM docker.io/centos:centos7
-MAINTAINER IF Fulcrum fulcrum@ifsight.net
+MAINTAINER IF Fulcrum "fulcrum@ifsight.net"
 
 # Upgrade and cleanup packages
 RUN echo "Cache bust 201604291406" && \
